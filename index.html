@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter city name" spellcheck="true">
+                <button><img id="searchbutton" src="search.png" ></button>
+            </div>
+            <div class="error">
+                <p>Invalid City Name!!</p>
+            </div>
+            <div class="weather">
+                <img src="rain.png" class="weather-icon">
+                <div class="condition">Raining</div>
+                <div class="textshow">
+                    <h1 class="temp">22°C</h1>
+                    <h2 class="city">Jodhpur</h2>
+                </div>
+                <div class="details">
+                    <div class="col">
+                        <img src="humidity.png" id="humidityimg">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="wind.png" id="windimg">
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="forecast">
+                    <!-- <div class="forecast-card"></div>
+                    <div class="forecast-card"></div>
+                    <div class="forecast-card"></div>
+                    <div class="forecast-card"></div>   
+                    <div class="forecast-card"></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src = "index.js"></script>
+</body>
+</html>
